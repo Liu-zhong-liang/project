@@ -1,0 +1,262 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 260.8695652173913px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 231.8840579710145px;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 193.23671497584542px;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 173.91304347826087px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 154.58937198067633px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 144.92753623188406px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 130.43478260869566px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 115.94202898550725px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 96.61835748792271px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 90.57971014492753px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 86.95652173913044px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 77.29468599033817px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 57.971014492753625px;
+  }
+}
+@media screen and (width: 4.14rem) {
+  html {
+    font-size: 1rem;
+  }
+}
+body {
+  background-color: #efefef;
+  font-size: 0.12rem;
+}
+.header {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #FF841D;
+  position: relative;
+  line-height: 0.5rem;
+}
+.header .logo img {
+  width: 2rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header .header-app img {
+  width: 0.3rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section {
+  width: 100%;
+  background-color: #fff;
+}
+.section form {
+  position: relative;
+  padding: 0.1rem 0.8rem 0.1rem 0.1rem;
+}
+.section form input {
+  width: 100%;
+  height: 0.3rem;
+  border: 0;
+  border-radius: 0.2rem;
+  text-indent: 0.2rem;
+  font-size: 0.12rem;
+  background-color: #efefef;
+  outline: medium;
+}
+.section form a {
+  display: block;
+  width: 0.6rem;
+  height: 0.26rem;
+  border: 0.01rem solid #ff6c00;
+  border-radius: 0.2rem;
+  background-color: #FF841D;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  color: #fff;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.26rem;
+}
+.nav {
+  background-color: #fff;
+  margin-top: 0.1rem;
+}
+.nav .row {
+  padding: 0.1rem 0.01rem;
+}
+.nav .row .col-xs-3 {
+  text-align: center;
+  font-size: 0.14rem;
+}
+.nav .row .col-xs-3 img {
+  width: 0.5rem;
+  margin-bottom: 0.05rem;
+}
+.price {
+  width: 100%;
+  background-color: #FF841D;
+  padding: 0.01rem 0.1rem;
+  position: relative;
+}
+.price h5 {
+  font-size: 0.16rem;
+  color: #fff;
+}
+.price a {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+}
+.price a img {
+  width: 0.2rem;
+}
+.main .last-content .last {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 0.01rem solid #ccc;
+  padding: 0.1rem;
+}
+.main .last-content .last .last-left {
+  float: left;
+}
+.main .last-content .last .last-left img {
+  width: 1rem;
+}
+.main .last-content .last .last-right {
+  margin-left: 0.1rem;
+}
+.main .last-content .last .last-right h5 {
+  line-height: 16px;
+}
+.main .last-content .last .last-right h5 span {
+  color: #ff6c00;
+}
+.main .last-content .last .last-right .top {
+  margin-top: 0.4rem;
+  position: relative;
+  color: #ccc;
+}
+.main .last-content .last .last-right .top i {
+  font-style: normal;
+}
+.main .last-content .last .last-right .top span {
+  position: absolute;
+  right: 0;
+}
+.main .last-content .last .last-right .top span i img {
+  width: 15px;
+  height: 15px;
+}
+#trending_brand {
+  background: #FF9710;
+  width: 100%;
+  position: relative;
+  padding: 8px 10px;
+}
+#trending_brand h5 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+}
+#trending_brand a {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+#trending_brand a img {
+  width: 20px;
+}
+#footer {
+  height: 100px;
+  text-align: center;
+}
+#footer .ro > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  text-align: center;
+}
+#footer .ro > div:last-child img {
+  width: 15px;
+  vertical-align: top;
+}

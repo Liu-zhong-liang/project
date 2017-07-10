@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/category.css">
+
+</head>
+
+<body>
+  <!-- 头部   -->
+  <header class="header">
+    <a href="javascript:;" class="logo">
+         <img src="./images/header_logo.png" alt="">
+       </a>
+    <a href="javascript:;" class="header-app">
+         <img src="./images/header_app.png" alt="">
+       </a>
+  </header>
+  <!-- 搜索 -->
+  <section class="section">
+    <form action="">
+      <input type="search" placeholder="请输入你想要输入的商品">
+      <a href="javascript:;">搜索</a>
+    </form>
+  </section>
+
+  <main>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+
+      <!--...-->
+      <!--<div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+              aria-controls="collapseTwo">
+         大家电
+        </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+              <div class="col-xs-4"><a href="">电视</a></div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--底部-->
+  <footer id="footer">
+    <div class="row">
+      <div class="col-xs-4"><a href="">登录</a></div>
+      <div class="col-xs-4"><a href="">注册</a></div>
+      <div class="col-xs-4"><img class="arrows" src="http://www.zuyushop.com/wap/images/top.jpg" alt="">返回顶部</div>
+    </div>
+    <div class="">
+      <a href="#">手机APP下载</a>
+      <span>慢慢买手机版</span>
+      <span> -- 掌上比价平台</span>
+      <p> m.manmanbuy.com</p>
+    </div>
+  </footer>
+
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./js/category.js"></script>
+  <script src="./lib/artTemplate/template.js"></script>
+  <!--<script type="text/template" id="accordion-list">
+    {{each result as item index}}
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo{{index}}" aria-expanded="false"
+            aria-controls="collapseTwo" data-titleid={{item.titleId}}>
+          {{item.title}}
+        </a>
+        </h4>
+      </div>
+      <div id="collapseTwo{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          <div class="row">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </script>-->
+  <!--<script type="text/template" id="liebiao">
+  {{each result as item index}}
+    <div class="col-xs-4"><a href="categorylist.html?categoryid={{item.categoryId}}">{{item.category}}</a></div>
+ {{/each}}
+  </script>-->
+
+  <!--渲染标题-->
+  <script type="text/template" id="main-list">
+    {{each result as item index}}
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <!--因为波板引擎中只有一条结构，所以a链接和下面的锚点都渲染成了一样的，
+          这就导致我们点击是都会同一个窗口打开闭合，所以我们渲染是给a链接和
+          锚点都添加索引，这样就避免了链接和锚点相同的现象-->
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne{{index}}" aria-expanded="true" aria-controls="collapseOne"
+          data-titleid={{item.titleId}}>
+          <!--此处添加自定义属性，给每个a添加一个自定义属性的id，
+          为了后面点击后获取对应里面的数据，-->
+              {{item.title}}
+             </a>
+        </h4>
+      </div>
+      <div id="collapseOne{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          <div class="row list">
+            <!--<div class="col-xs-4"><a href="">电视</a></div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </script>
+  <!--标题里面的列表-->
+   <script type="text/template" id="row-list">
+   {{each result as item index}}
+       <div class="col-xs-4"><a  href="categorylist.html?categoryid={{item.categoryId}}">{{item.category}}</a></div>
+   {{/each}}
+   </script>
+
+</body>
+
+</html>

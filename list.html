@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
+
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/list.css">
+
+</head>
+
+<body>
+  <!-- 头部   -->
+  <header class="header">
+    <a href="javascript:;" class="logo">
+         <img src="./images/header_logo.png" alt="">
+       </a>
+    <a href="javascript:;" class="header-app">
+         <img src="./images/header_app.png" alt="">
+       </a>
+  </header>
+  <!-- 搜索 -->
+  <section class="section">
+    <form action="">
+      <input type="search" placeholder="请输入你想要输入的商品">
+      <a href="javascript:;">搜索</a>
+    </form>
+  </section>
+  <!-- 列表 -->
+  <main class="main">
+
+
+
+    <div class="li">
+      <ul class="main-list">
+
+        <!--<li>
+          <a href="">
+            <div class="img"><img src="./images/gengduo.png" alt=""></div>
+            <h5>西域美农新疆特产五星和田红枣250g*2</h5>
+            <p>19.8元(5件99元)</p>
+            <div class="jd">京东商城|10-22 13:28</div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="img"><img src="./images/gengduo.png" alt=""></div>
+            <h5>西域美农新疆特产五星和田红枣250g*2</h5>
+            <p>19.8元(5件99元)</p>
+            <div class="jd">京东商城| 10-22 13:28</div>
+          </a>
+        </li>-->
+      </ul>
+    </div>
+
+
+
+  </main>
+  <!--商品排行-->
+  <section id="trending_brand">
+    <h5>品牌排行</h5>
+    <a href="#">
+            <img src="http://www.zuyushop.com/wap/images/more.png" alt="">
+         </a>
+  </section>
+  <!-- 页脚   -->
+  <footer id="footer">
+    <div class="ro">
+      <div class="col-xs-4"><a href="">登录</a></div>
+      <div class="col-xs-4"><a href="">注册</a></div>
+      <div class="col-xs-4"><img class="arrows" src="http://www.zuyushop.com/wap/images/top.jpg" alt="">返回顶部</div>
+    </div>
+    <div class="">
+      <a href="#">手机APP下载</a>
+      <span>慢慢买手机版</span>
+      <span> -- 掌上比价平台</span>
+      <p> m.manmanbuy.com</p>
+    </div>
+
+  </footer>
+
+
+  </script>
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/artTemplate/template.js"></script>
+  <script src="./js/list.js"></script>
+  <script type="text/template" id="main-list">
+  {{each result as item index}}
+    <li>
+      <a href="">
+        <div class="img">{{#item.productImg}}</div>
+        <h5>{{item.productName}}</h5>
+        <p>{{item.productPrice}}</p>
+        <div class="jd">{{item.productFrom}}|{{item.productTime}}</div>
+      </a>
+    </li>
+    {{/each}}
+  </script>
+</body>
+
+</html>

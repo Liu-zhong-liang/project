@@ -1,0 +1,244 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 260.8695652173913px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 231.8840579710145px;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 193.23671497584542px;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 173.91304347826087px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 154.58937198067633px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 144.92753623188406px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 130.43478260869566px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 115.94202898550725px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 96.61835748792271px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 90.57971014492753px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 86.95652173913044px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 77.29468599033817px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 57.971014492753625px;
+  }
+}
+@media screen and (width: 4.14rem) {
+  html {
+    font-size: 1rem;
+  }
+}
+body {
+  background-color: #efefef;
+  font-size: 0.12rem;
+}
+.header {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #FF841D;
+  position: relative;
+  line-height: 0.5rem;
+}
+.header .logo img {
+  width: 2rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header .header-app img {
+  width: 0.3rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section {
+  width: 100%;
+  background-color: #fff;
+}
+.section form {
+  position: relative;
+  padding: 0.1rem 0.8rem 0.1rem 0.1rem;
+}
+.section form input {
+  width: 100%;
+  height: 0.3rem;
+  border: 0;
+  border-radius: 0.2rem;
+  text-indent: 0.2rem;
+  font-size: 0.12rem;
+  background-color: #efefef;
+  outline: medium;
+}
+.section form a {
+  display: block;
+  width: 0.6rem;
+  height: 0.26rem;
+  border: 0.01rem solid #ff6c00;
+  border-radius: 0.2rem;
+  background-color: #FF841D;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  color: #fff;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.26rem;
+}
+.nav .nav-lis {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 9px 0 9px 15px;
+  position: relative;
+}
+.nav .nav-lis a {
+  font-size: 14px;
+  color: #000;
+}
+.nav .nav-lis a:before {
+  content: " ";
+}
+.nav .nav-lis a:after {
+  content: ">";
+}
+.nav .nav-lis span {
+  font-size: 14px;
+  color: #000;
+}
+.nav .nav-lis span:after {
+  content: ">";
+}
+.nav .nav-lis button {
+  padding: 3px 6px;
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+nav {
+  background-color: #fff;
+}
+nav .nav-xiangqing {
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+}
+nav .nav-xiangqing h4 {
+  line-height: 25px;
+}
+nav .nav-xiangqing img {
+  padding: 10px 0 50px 0;
+}
+nav .nav-xiangqing .sc {
+  position: absolute;
+  bottom: -30px;
+  right: 20px;
+}
+nav .nav-xiangqing .sc img {
+  width: 50px;
+}
+.xiangqing ul {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.xiangqing ul li {
+  border-left: 1px solid #ccc;
+  background-color: #FF841D;
+  padding: 0;
+}
+.xiangqing ul li a {
+  width: 100%;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: red;
+}
+#footer {
+  height: 100px;
+  text-align: center;
+}
+#footer .ro > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  text-align: center;
+}
+#footer .ro > div:last-child img {
+  width: 15px;
+  vertical-align: top;
+}
